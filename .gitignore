@@ -1,0 +1,39 @@
+
+# ========================================
+# Smart Parking & Loading Dock Monitoring
+# ========================================
+
+# Original datasets
+/data/raw/*
+!/data/raw/.gitkeep
+
+# Processed datasets
+/data/processed/*
+!/data/processed/.gitkeep
+
+# Videos recorded by the team
+/data/own_videos/*
+!/data/own_videos/.gitkeep
+
+# Dataset archives
+*.zip
+*.rar
+*.tar
+*.tar.gz
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
